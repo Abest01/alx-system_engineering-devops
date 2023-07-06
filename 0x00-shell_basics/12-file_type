@@ -1,2 +1,3 @@
 #!/bin/bash
-file_type=$(file -b "/tmp/iamafile")
+file_info=$(file /tmp/iamafile)
+echo "/tmp/iamafile: $file_info"
