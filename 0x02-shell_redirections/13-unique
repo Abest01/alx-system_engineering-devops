@@ -1,2 +1,2 @@
 #!/bin//bash
-tr ' ' '\n' <<< "list of words" | sort | uniq -u
+tr ' ' '\n' <<< "list of words" 
