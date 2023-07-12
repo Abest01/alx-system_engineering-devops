@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "list of words" | tr " " "/n"
+cat "list of words" | tr " " "\n"
